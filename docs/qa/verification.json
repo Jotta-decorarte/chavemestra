@@ -1,0 +1,207 @@
+{
+  "results": [
+    {
+      "label": "desktop",
+      "overflow": false,
+      "h1": 1,
+      "title": "Chave Mestra | Consultoria Financeira e Empresarial",
+      "whatsapp": true,
+      "brokenAnchors": [],
+      "fonts": [
+        {
+          "family": "alta",
+          "status": "loaded"
+        },
+        {
+          "family": "alta Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        }
+      ]
+    },
+    {
+      "label": "tablet",
+      "overflow": false,
+      "h1": 1,
+      "title": "Chave Mestra | Consultoria Financeira e Empresarial",
+      "whatsapp": true,
+      "brokenAnchors": [],
+      "fonts": [
+        {
+          "family": "alta",
+          "status": "loaded"
+        },
+        {
+          "family": "alta Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        }
+      ]
+    },
+    {
+      "label": "mobile",
+      "overflow": false,
+      "h1": 1,
+      "title": "Chave Mestra | Consultoria Financeira e Empresarial",
+      "whatsapp": true,
+      "brokenAnchors": [],
+      "fonts": [
+        {
+          "family": "alta",
+          "status": "loaded"
+        },
+        {
+          "family": "alta Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        }
+      ]
+    },
+    {
+      "label": "small",
+      "overflow": false,
+      "h1": 1,
+      "title": "Chave Mestra | Consultoria Financeira e Empresarial",
+      "whatsapp": true,
+      "brokenAnchors": [],
+      "fonts": [
+        {
+          "family": "alta",
+          "status": "loaded"
+        },
+        {
+          "family": "alta Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins",
+          "status": "loaded"
+        },
+        {
+          "family": "poppins Fallback",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "__nextjs-Geist Mono",
+          "status": "unloaded"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "menu": "passed",
+  "faq": "passed"
+}

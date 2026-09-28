@@ -1,0 +1,5 @@
+import Container from "@/components/layout/Container";
+import Eyebrow from "@/components/ui/Eyebrow";
+export default function AboutRenata() {
+  return <section id="sobre" className="section about-section ivory"><Container><Eyebrow>Quem está por trás da Chave Mestra</Eyebrow><div className="about-grid"><div><h2>Renata<br />Lopes<span>.</span></h2><p className="about-subtitle">Estratégia financeira conectada à realidade de quem administra uma empresa.</p><div className="about-signature">FINANÇAS · GESTÃO · ESTRATÉGIA</div></div><div className="body-copy"><p>Com mais de 15 anos de atuação em finanças, gestão administrativa e planejamento estratégico, Renata Lopes construiu sua trajetória profissional nos setores de saúde, varejo e serviços.</p><p>Sua experiência envolve gestão de contas a pagar e receber, tesouraria, planejamento de capitais, orçamentos, licitações e melhoria de controles internos.</p><p>Como fundadora da Chave Mestra Consultoria, sua proposta é aproximar estratégia e operação, ajudando empresários e gestores a transformar informações financeiras em decisões mais claras para o negócio.</p></div></div></Container></section>;
+}

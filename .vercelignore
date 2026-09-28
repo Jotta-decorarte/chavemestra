@@ -1,0 +1,32 @@
+# Dependencias e artefatos locais
+node_modules/
+.next/
+.git/
+.vercel/
+*.log
+
+# Variaveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*.json
+service-account*.json
+
+# Materiais privados e documentos de trabalho nao usados no build
+referencias/
+docs/
+DESIGN_SYSTEM_CHAVE_MESTRA.md
+README.md
+SECURITY.md
+AGENTS.md
+CLAUDE.md
+
+# Arquivos locais do sistema
+.DS_Store
+Thumbs.db

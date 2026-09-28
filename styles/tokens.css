@@ -1,0 +1,47 @@
+/* Transcrito do Design System. Dourado #C9A24D provisório. */
+:root {
+  --brand-black: #000000;
+  --brand-ivory: #F6ECE2;
+  --brand-white: #FFFFFF;
+  --brand-gold: #C9A24D;
+
+  --neutral-950: #111111;
+  --neutral-800: #292929;
+  --neutral-700: #444444;
+  --neutral-500: #737373;
+  --neutral-300: #D6D6D6;
+  --neutral-200: #E8E8E8;
+  --neutral-100: #F5F5F5;
+
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #F6ECE2;
+  --surface-dark: #000000;
+
+  --text-primary: #111111;
+  --text-secondary: #555555;
+  --text-light: #FFFFFF;
+  --text-gold: #C9A24D;
+
+  --container: 1200px;
+  --container-text: 720px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-30: 120px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-card: 0 12px 40px rgba(0,0,0,.06);
+  --shadow-header: 0 4px 24px rgba(0,0,0,.05);
+}
