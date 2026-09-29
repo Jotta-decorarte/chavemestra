@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${alta.variable} ${poppins.variable}`}>
+    <html lang="pt-BR" data-theme="dark" className={`${alta.variable} ${poppins.variable}`}>
       <body>{children}</body>
     </html>
   );

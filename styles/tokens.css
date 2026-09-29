@@ -44,4 +44,34 @@
 
   --shadow-card: 0 12px 40px rgba(0,0,0,.06);
   --shadow-header: 0 4px 24px rgba(0,0,0,.05);
+
+  --page-bg: #FFFFFF;
+  --header-bg: rgb(255 255 255 / 94%);
+  --card-bg: #FFFFFF;
+  --muted-bg: #F5F5F5;
+  --line-color: #E8E8E8;
+  --soft-line-color: #D6D6D6;
+}
+
+:root[data-theme="dark"] {
+  --brand-ivory: #000000;
+  --neutral-950: #F7F3ED;
+  --neutral-800: #D9D4CC;
+  --neutral-700: #C5BFB6;
+  --neutral-500: #A39D94;
+  --neutral-300: #4A4742;
+  --neutral-200: #302E2A;
+  --neutral-100: #1B1A18;
+  --surface-primary: #000000;
+  --surface-secondary: #000000;
+  --text-primary: #F7F3ED;
+  --text-secondary: #C5BFB6;
+  --page-bg: #000000;
+  --header-bg: rgb(0 0 0 / 96%);
+  --card-bg: #080808;
+  --muted-bg: #080808;
+  --line-color: #302E2A;
+  --soft-line-color: #4A4742;
+  --shadow-card: 0 12px 40px rgba(0,0,0,.28);
+  --shadow-header: 0 4px 24px rgba(0,0,0,.3);
 }
