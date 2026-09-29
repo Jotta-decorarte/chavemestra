@@ -8,7 +8,10 @@ import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 
 export function Brand() {
-  return <a href="#inicio" className="brand" aria-label="Chave Mestra Consultoria Financeira — início"><Image src="/logos/logo-chave-mestra-PNG.png" alt="Chave Mestra Consultoria Financeira" width={1672} height={941} priority /></a>;
+  return <a href="#inicio" className="brand" aria-label="Chave Mestra Consultoria Financeira — início">
+    <Image className="brand-logo brand-logo-light" src="/logos/logo-chave-mestra-fundo brando.png" alt="Chave Mestra Consultoria Financeira" width={1774} height={887} priority />
+    <Image className="brand-logo brand-logo-dark" src="/logos/logo-chave-mestra-PNG.png" alt="" width={1672} height={941} priority aria-hidden="true" />
+  </a>;
 }
 
 export default function Header() {
