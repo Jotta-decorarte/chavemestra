@@ -18,5 +18,5 @@ import FinalCTA from "@/components/sections/FinalCTA";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 export default function Home() {
-  return <><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><Header /><main id="conteudo"><Hero /><AuthorityBar /><Problems /><Manifesto /><ValueProposition /><Services /><Process /><Benefits /><MiddleCTA /><Healthcare /><AboutRenata /><Credentials /><InstitutionalBlock /><FAQ /><FinalCTA /></main><Footer /><WhatsAppButton placement="floating">WhatsApp</WhatsAppButton></>;
+  return <><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><Header /><main id="conteudo"><Hero /><AuthorityBar /><Problems /><Manifesto /><ValueProposition /><Services /><Process /><Benefits /><MiddleCTA /><AboutRenata /><Credentials /><Healthcare /><InstitutionalBlock /><FAQ /><FinalCTA /></main><Footer /><WhatsAppButton placement="floating">WhatsApp</WhatsAppButton></>;
 }
