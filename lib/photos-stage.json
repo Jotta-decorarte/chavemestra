@@ -1,0 +1,50 @@
+[
+  {
+    "id": "palco-1",
+    "filename": "RENATA-PALESTRA-LISTRADA-01-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Frontal com microfone"
+  },
+  {
+    "id": "palco-2",
+    "filename": "RENATA-PALESTRA-LISTRADA-02-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Frontal gesticulando"
+  },
+  {
+    "id": "palco-3",
+    "filename": "RENATA-PALESTRA-LISTRADA-03-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Lateral com microfone"
+  },
+  {
+    "id": "palco-4",
+    "filename": "RENATA-PALESTRA-LISTRADA-04-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Lateral interagindo"
+  },
+  {
+    "id": "palco-5",
+    "filename": "RENATA-PALESTRA-LISTRADA-05-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Vista da plateia"
+  },
+  {
+    "id": "palco-6",
+    "filename": "RENATA-PALESTRA-LISTRADA-06-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Palco em três quartos"
+  },
+  {
+    "id": "palco-7",
+    "filename": "RENATA-PALESTRA-LISTRADA-07-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Junto à apresentação"
+  },
+  {
+    "id": "palco-8",
+    "filename": "RENATA-PALESTRA-LISTRADA-08-v1.png",
+    "look": "Camisa listrada bege",
+    "pose": "Apresentando com controle"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nitido-branco-mostarda-1",
+    "filename": "RENATA-BRANCO-MOSTARDA-01-BRACOS-CRUZADOS-FUNDO-NITIDO-v1.png",
+    "look": "Branco e mostarda",
+    "pose": "Braços cruzados"
+  },
+  {
+    "id": "nitido-branco-mostarda-2",
+    "filename": "RENATA-BRANCO-MOSTARDA-02-MAO-NO-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Branco e mostarda",
+    "pose": "Mão no queixo"
+  },
+  {
+    "id": "nitido-branco-mostarda-3",
+    "filename": "RENATA-BRANCO-MOSTARDA-03-SENTADA-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Branco e mostarda",
+    "pose": "Sentada · mão no queixo"
+  },
+  {
+    "id": "nitido-branco-mostarda-4",
+    "filename": "RENATA-BRANCO-MOSTARDA-04-SENTADA-RELAXADA-FUNDO-NITIDO-v1.png",
+    "look": "Branco e mostarda",
+    "pose": "Sentada · relaxada"
+  },
+  {
+    "id": "nitido-branco-mostarda-5",
+    "filename": "RENATA-BRANCO-MOSTARDA-05-EM-PE-LATERAL-FUNDO-NITIDO-v1.png",
+    "look": "Branco e mostarda",
+    "pose": "Em pé · de lado"
+  },
+  {
+    "id": "nitido-branco-mostarda-6",
+    "filename": "RENATA-BRANCO-MOSTARDA-06-NOTEBOOK-FUNDO-NITIDO-v1.png",
+    "look": "Branco e mostarda",
+    "pose": "À mesa com notebook"
+  },
+  {
+    "id": "nitido-listrada-bege-1",
+    "filename": "RENATA-LISTRADA-BEGE-01-BRACOS-CRUZADOS-FUNDO-NITIDO-v1.png",
+    "look": "Listrado bege",
+    "pose": "Braços cruzados"
+  },
+  {
+    "id": "nitido-listrada-bege-2",
+    "filename": "RENATA-LISTRADA-BEGE-02-MAO-NO-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Listrado bege",
+    "pose": "Mão no queixo"
+  },
+  {
+    "id": "nitido-listrada-bege-3",
+    "filename": "RENATA-LISTRADA-BEGE-03-SENTADA-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Listrado bege",
+    "pose": "Sentada · mão no queixo"
+  },
+  {
+    "id": "nitido-listrada-bege-4",
+    "filename": "RENATA-LISTRADA-BEGE-04-SENTADA-RELAXADA-FUNDO-NITIDO-v1.png",
+    "look": "Listrado bege",
+    "pose": "Sentada · relaxada"
+  },
+  {
+    "id": "nitido-listrada-bege-5",
+    "filename": "RENATA-LISTRADA-BEGE-05-EM-PE-LATERAL-FUNDO-NITIDO-v1.png",
+    "look": "Listrado bege",
+    "pose": "Em pé · de lado"
+  },
+  {
+    "id": "nitido-listrada-bege-6",
+    "filename": "RENATA-LISTRADA-BEGE-06-NOTEBOOK-FUNDO-NITIDO-v1.png",
+    "look": "Listrado bege",
+    "pose": "À mesa com notebook"
+  },
+  {
+    "id": "nitido-terno-azul-1",
+    "filename": "RENATA-TERNO-AZUL-01-BRACOS-CRUZADOS-FUNDO-NITIDO-v1.png",
+    "look": "Terno azul",
+    "pose": "Braços cruzados"
+  },
+  {
+    "id": "nitido-terno-azul-2",
+    "filename": "RENATA-TERNO-AZUL-02-MAO-NO-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Terno azul",
+    "pose": "Mão no queixo"
+  },
+  {
+    "id": "nitido-terno-azul-3",
+    "filename": "RENATA-TERNO-AZUL-03-SENTADA-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Terno azul",
+    "pose": "Sentada · mão no queixo"
+  },
+  {
+    "id": "nitido-terno-azul-4",
+    "filename": "RENATA-TERNO-AZUL-04-SENTADA-RELAXADA-FUNDO-NITIDO-v1.png",
+    "look": "Terno azul",
+    "pose": "Sentada · relaxada"
+  },
+  {
+    "id": "nitido-terno-azul-5",
+    "filename": "RENATA-TERNO-AZUL-05-EM-PE-LATERAL-FUNDO-NITIDO-v2.png",
+    "look": "Terno azul",
+    "pose": "Em pé · de lado"
+  },
+  {
+    "id": "nitido-terno-azul-6",
+    "filename": "RENATA-TERNO-AZUL-06-NOTEBOOK-FUNDO-NITIDO-v1.png",
+    "look": "Terno azul",
+    "pose": "À mesa com notebook"
+  },
+  {
+    "id": "nitido-terno-preto-1",
+    "filename": "RENATA-TERNO-PRETO-01-BRACOS-CRUZADOS-FUNDO-NITIDO-v1.png",
+    "look": "Terno preto",
+    "pose": "Braços cruzados"
+  },
+  {
+    "id": "nitido-terno-preto-2",
+    "filename": "RENATA-TERNO-PRETO-02-MAO-NO-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Terno preto",
+    "pose": "Mão no queixo"
+  },
+  {
+    "id": "nitido-terno-preto-3",
+    "filename": "RENATA-TERNO-PRETO-03-SENTADA-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Terno preto",
+    "pose": "Sentada · mão no queixo"
+  },
+  {
+    "id": "nitido-terno-preto-4",
+    "filename": "RENATA-TERNO-PRETO-04-SENTADA-RELAXADA-FUNDO-NITIDO-v1.png",
+    "look": "Terno preto",
+    "pose": "Sentada · relaxada"
+  },
+  {
+    "id": "nitido-terno-preto-5",
+    "filename": "RENATA-TERNO-PRETO-05-EM-PE-LATERAL-FUNDO-NITIDO-v1.png",
+    "look": "Terno preto",
+    "pose": "Em pé · de lado"
+  },
+  {
+    "id": "nitido-terno-preto-6",
+    "filename": "RENATA-TERNO-PRETO-06-NOTEBOOK-FUNDO-NITIDO-v1.png",
+    "look": "Terno preto",
+    "pose": "À mesa com notebook"
+  },
+  {
+    "id": "nitido-terno-vermelho-1",
+    "filename": "RENATA-TERNO-VERMELHO-01-BRACOS-CRUZADOS-FUNDO-NITIDO-v1.png",
+    "look": "Terno vermelho",
+    "pose": "Braços cruzados"
+  },
+  {
+    "id": "nitido-terno-vermelho-2",
+    "filename": "RENATA-TERNO-VERMELHO-02-MAO-NO-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Terno vermelho",
+    "pose": "Mão no queixo"
+  },
+  {
+    "id": "nitido-terno-vermelho-3",
+    "filename": "RENATA-TERNO-VERMELHO-03-SENTADA-QUEIXO-FUNDO-NITIDO-v1.png",
+    "look": "Terno vermelho",
+    "pose": "Sentada · mão no queixo"
+  },
+  {
+    "id": "nitido-terno-vermelho-4",
+    "filename": "RENATA-TERNO-VERMELHO-04-SENTADA-RELAXADA-FUNDO-NITIDO-v1.png",
+    "look": "Terno vermelho",
+    "pose": "Sentada · relaxada"
+  },
+  {
+    "id": "nitido-terno-vermelho-5",
+    "filename": "RENATA-TERNO-VERMELHO-05-EM-PE-LATERAL-FUNDO-NITIDO-v1.png",
+    "look": "Terno vermelho",
+    "pose": "Em pé · de lado"
+  },
+  {
+    "id": "nitido-terno-vermelho-6",
+    "filename": "RENATA-TERNO-VERMELHO-06-NOTEBOOK-FUNDO-NITIDO-v1.png",
+    "look": "Terno vermelho",
+    "pose": "À mesa com notebook"
+  }
+]

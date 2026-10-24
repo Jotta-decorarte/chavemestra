@@ -2,6 +2,17 @@
 
 Rota: `/fotos`. Login exclusivo, filtros por roupa, ampliação e download de PNG.
 
+## Coleções separadas
+
+- `/fotos`: os 30 retratos originais do escritório.
+- `/fotos/fundo-nitido`: 30 versões com escritório em foco.
+- `/fotos/cafe`: seis fotos em dois looks, com fundo desfocado.
+- `/fotos/palestras`: oito composições de palco com camisa listrada.
+
+Cada coleção usa seu próprio manifesto. A navegação troca a página, sem misturar arquivos no filtro. O formulário de acesso mantém a coleção escolhida; destinos aceitos são limitados às quatro rotas acima. Todas compartilham a proteção de sessão e de arquivos existente.
+
+Para preparar uma nova coleção: `node --env-file=.env.local scripts/prepare-collection.mjs PASTA MANIFESTO sharp|cafe|stage`. O manifesto de entrada contém `id`, `file`, `look` e `pose`; prompts e referências locais não entram no manifesto publicado. O script valida a quantidade esperada antes de criptografar.
+
 ## Configuração privada
 
 Definir apenas no servidor: `PHOTO_PASSWORD_HASH` (salt e hash scrypt separados por dois-pontos), `PHOTO_SESSION_SECRET` e `PHOTO_ASSET_KEY` (chave AES de 32 bytes, hexadecimal). Não usar prefixo NEXT_PUBLIC. Os valores locais estão em `.env.local`, ignorado pelo Git e pelo deploy. Os mesmos valores de sessão, hash e criptografia foram configurados como segredos na Vercel.

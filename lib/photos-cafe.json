@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cafe-1",
+    "filename": "RENATA-CAFE-BEGE-01-PULSEIRA-v1.png",
+    "look": "Café — conjunto bege",
+    "pose": "Ajustando a pulseira"
+  },
+  {
+    "id": "cafe-2",
+    "filename": "RENATA-CAFE-BEGE-02-XICARA-v1.png",
+    "look": "Café — conjunto bege",
+    "pose": "Com a xícara"
+  },
+  {
+    "id": "cafe-3",
+    "filename": "RENATA-CAFE-BEGE-03-RELAXADA-v1.png",
+    "look": "Café — conjunto bege",
+    "pose": "Sentada relaxada"
+  },
+  {
+    "id": "cafe-4",
+    "filename": "RENATA-CAFE-BLAZER-BRANCO-01-XICARA-v1.png",
+    "look": "Café — blazer branco",
+    "pose": "Café junto à janela"
+  },
+  {
+    "id": "cafe-5",
+    "filename": "RENATA-CAFE-BLAZER-BRANCO-02-SORRISO-v2.png",
+    "look": "Café — blazer branco",
+    "pose": "Sorriso à mesa"
+  },
+  {
+    "id": "cafe-6",
+    "filename": "RENATA-CAFE-BLAZER-BRANCO-03-QUEIXO-v1.png",
+    "look": "Café — blazer branco",
+    "pose": "Mão no queixo"
+  }
+]

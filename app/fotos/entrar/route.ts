@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { galleryDestination } from '@/lib/photo-collections';
 import { cookieName, makeSession, privateHeaders, ready, sameOrigin, sessionSeconds, validPassword } from '@/lib/photo-auth';
 const attempts = new Map<string,{count:number,until:number}>();
 export async function POST(req: NextRequest) {
@@ -13,12 +14,13 @@ export async function POST(req: NextRequest) {
   limit.count++; attempts.set(ip,limit);
   if (limit.count>8) return new Response('Muitas tentativas. Aguarde um minuto.',{status:429,headers:{...privateHeaders,'Retry-After':'60'}});
   const form = await req.formData();
+  const destination = galleryDestination(form.get('next'));
   if (!validPassword(String(form.get('login') || '').trim(),String(form.get('password') || ''))) {
     await new Promise(resolve=>setTimeout(resolve,500));
-    return NextResponse.redirect(new URL('/fotos?erro=1',req.headers.get('origin')!),{status:303,headers:privateHeaders});
+    return NextResponse.redirect(new URL(destination+'?erro=1',req.headers.get('origin')!),{status:303,headers:privateHeaders});
   }
   attempts.delete(ip);
-  const response = NextResponse.redirect(new URL('/fotos',req.headers.get('origin')!),{status:303,headers:privateHeaders});
+  const response = NextResponse.redirect(new URL(destination,req.headers.get('origin')!),{status:303,headers:privateHeaders});
   response.cookies.set(cookieName,makeSession(),{httpOnly:true,secure:process.env.NODE_ENV==='production',sameSite:'strict',path:'/fotos',maxAge:sessionSeconds});
   return response;
 }
