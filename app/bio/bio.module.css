@@ -1,0 +1,83 @@
+.page {
+  display: grid;
+  place-items: center;
+  min-height: 100svh;
+  padding: 48px 20px 32px;
+  color: #f6ece2;
+  background: radial-gradient(ellipse at top, #221a10, #000 520px);
+}
+
+.profile {
+  width: min(100%, 420px);
+  text-align: center;
+}
+
+.portrait {
+  width: 112px;
+  height: 112px;
+  margin: 0 auto 24px;
+  object-fit: cover;
+  object-position: center 22%;
+  border: 1px solid var(--brand-gold);
+  border-radius: 50%;
+}
+
+.profile h1 { font-size: clamp(34px, 9vw, 48px); }
+.profile p { margin-top: 8px; color: #d6cabe; font-size: 14px; }
+
+.links { display: grid; gap: 12px; margin-top: 30px; }
+.links a {
+  display: grid;
+  grid-template-columns: 20px 1fr 17px;
+  align-items: center;
+  gap: 14px;
+  min-height: 56px;
+  padding: 12px 16px;
+  border: 1px solid #51452f;
+  border-radius: 12px;
+  background: #14110d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.links svg { color: var(--brand-gold); }
+.links a:hover { border-color: var(--brand-gold); background: #20190f; }
+
+.credit {
+  margin-top: 32px;
+  padding-top: 18px;
+  border-top: 1px solid #352b1d;
+  color: #d6cabe;
+  font-size: 12px;
+}
+
+.credit span { color: var(--brand-gold); text-decoration: underline; text-underline-offset: 4px; }
+.credit a { display: inline-block; padding: 8px; }
+.profile a:focus-visible { outline: 2px solid var(--brand-gold); outline-offset: 4px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .profile { animation: enter 460ms ease-out both; }
+  .portrait { animation: float 5.5s ease-in-out 460ms infinite; }
+  .links a,
+  .credit a {
+    --entry-delay: 140ms;
+    animation: enter 460ms ease-out var(--entry-delay) both,
+      float 5.5s ease-in-out calc(var(--entry-delay) + 460ms) infinite;
+  }
+  .links a:nth-child(2) { --entry-delay: 220ms; }
+  .links a:nth-child(3) { --entry-delay: 300ms; }
+  .credit a { --entry-delay: 380ms; }
+  .profile:focus-within .portrait,
+  .profile:focus-within .links a,
+  .profile:focus-within .credit a { animation: none; }
+}
+
+@keyframes enter {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
