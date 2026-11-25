@@ -11,10 +11,20 @@ export default function Hero() {
       <div className="hero-actions"><WhatsAppButton placement="hero">Quero falar com uma consultora</WhatsAppButton><a className="text-link" href="#consultoria">Conheça a consultoria <ArrowDown size={16} aria-hidden="true" /></a></div>
       <p className="microproof">+15 anos de experiência <span>·</span> Gestão financeira <span>·</span> Planejamento estratégico</p>
     </div>
-    <div className="hero-editorial" aria-label="Finanças, gestão e estratégia"><div className="editorial-top"><span>CHAVE MESTRA</span></div>
-      <div className="editorial-lines"><span>Finanças.</span><span>Gestão.</span><span>Estratégia.</span></div>
-      <div className="editorial-bottom"><span>Organização financeira,<br />processos e estratégia.</span></div>
-    </div></div>
+    <figure className="hero-portrait">
+      <div className="hero-portrait-frame">
+        <img
+          src="/images/renata/renata-vermelho.webp"
+          alt="Renata Lopes, fundadora da Chave Mestra, usando blazer vermelho"
+          width={1122}
+          height={1402}
+          fetchPriority="high"
+        />
+      </div>
+      <figcaption className="hero-pillars">
+        <span>Finanças</span><span>Gestão</span><span>Estratégia</span>
+      </figcaption>
+    </figure></div>
     <div className="hero-footnote"><span>CONSULTORIA ADMINISTRATIVA E FINANCEIRA</span><a href="#gestao">Gestão começa com clareza <ArrowDown size={14} aria-hidden="true" /></a></div>
   </Container></section>;
 }
