@@ -20,6 +20,8 @@ service-account*.json
 
 # Materiais privados e documentos de trabalho nao usados no build
 referencias/
+outputs/
+sites/
 docs/
 DESIGN_SYSTEM_CHAVE_MESTRA.md
 README.md

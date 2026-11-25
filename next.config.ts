@@ -36,8 +36,11 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: { '/fotos/arquivo/*': ['./private-photos/*.bin'] },
   turbopack: { root: process.cwd() },
   poweredByHeader: false,
+  async rewrites() {
+    return [{ source: "/aprovacao", destination: "/aprovacao/index.html" }];
+  },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }, {source:'/fotos/:path*',headers:[{key:'X-Robots-Tag',value:'noindex, nofollow, noarchive'},{key:'Cache-Control',value:'private, no-store, max-age=0'}]}];
+    return [{ source: "/:path*", headers: securityHeaders }, {source:'/fotos/:path*',headers:[{key:'X-Robots-Tag',value:'noindex, nofollow, noarchive'},{key:'Cache-Control',value:'private, no-store, max-age=0'}]}, { source: "/aprovacao/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }] }];
   },
 };
 
